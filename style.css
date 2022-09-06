@@ -1,5 +1,9 @@
 .background{
-    background-color: black;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -8,15 +12,14 @@ nav{
     padding: 45px;
     padding-left: 8%;
     padding-right: 8%;
-
 }
-.logo{
+h2{
     color: white;
     font-size: 35px;
     cursor: pointer;
     letter-spacing: 1px;
 }
-#lio-logo{
+span{
     color: #f9004d;
 }
 
@@ -46,4 +49,55 @@ nav ul li a:hover{
 }
 .btn:hover{
     transform: scale(1.2);
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+main{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translateY(-50);
+}
+h4{
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    margin: 20px 0px 15px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;   
+}
+/* :first-child está pegando o primeiro input no html*/
+form input:first-child{ 
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    outline: none;
+}
+/* :first-child está pegando o segundo input no html*/
+form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 15px #858585;
+    right: -20px;
+    top:7px;
 }
