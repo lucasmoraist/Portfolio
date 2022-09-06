@@ -1,0 +1,49 @@
+.background{
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+#lio-logo{
+    color: #f9004d;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transform: scale(1.2);
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
