@@ -5,34 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfólio</title>
+    <title>Portfolio</title>
 </head>
-<body class="background">
-    <header>
+<body>
+    <header id="inicio">
+        <h1>Lucas <br>de Morais</h1>
+        <div id="div_header">
+            <p>FIAP - Cursando Análise e Desenvolvimento de Sistemas</p>
+            <div>
+                <a href=https://www.instagram.com/lucax.mn/ target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="icone do instagram" target="_blank"></a>
+                <a href = "mailto:luksmnt1101@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" alt="icone do gmail" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/lucas-morais-152672219/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="icone do linkedln" target="_blank"></a> 
+                <a href="https://github.com/lucasmoraist" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="icone do github" target="_blank"></a>
+            </div>
+        </div>
+
         <nav>
-            <h2>Portfó<span>lio</span></h2>
-
-            <ul class="cabecalho-link">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul id="navegacao">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#gostos">Gostos</a></li>
+                <li><a href="#sonhos">Sonhos</a></li>
+                <li><a href="#rodape">Rodape</a></li>
             </ul>
-
-            <a href="#" class="btn">Subscribe</a>
-
         </nav>
     </header>
     
     <main>
-        <h4>Olá meu nome é</h4>
-        <h1>Lucas <span>de Morais</span></h1>
-        <h3>Estudante de ADS</h3>
-        <form>
-            <input type="email" name="email" id="email" placeholder="Envie seu E-mail">
-            <input type="submit" name="submit" value="Começar">
-        </form>
+        <section id="sobre">
+            <h4>Sobre Mim</h4>
+            <ol>
+                <li>Amo esportes</li>
+                    <p>Joguei bola dos 9 aos 13 anos, depois comecei jogar vôlei por um tempo e parei pra começar 
+                        jogar basquete e hoje em dia jogo vôlei
+                    </p>
+                <li>Tenho muita facilidade em me adaptar nos lugares</li>
+                <li>Sou agnóstico</li>
+            </ol>
+        </section>
+
+        <section id="gostos">
+            <h4>Gostos</h4>
+
+            <ul>
+                <li>Jogar</li>
+                <li>Academia</li>
+                <li>Sair</li>
+                <li>Programar</li>
+            </ul>
+        </section>
+
+        <section id="sonhos">
+            <h4>Sonhos</h4>
+            
+            <p>
+                Tenho muita vontade de conhecer o mundo, desde os lugares menos visitados no mundo até os 
+                lugares mais visitados no mundo, tenho muita curiosidade em conhecer culturas e povos novos,
+                cidades antigas que só ouvia em histórias.
+            </p>
+            <p>
+                Tenho muita vontade em fazer um mochilão de trailer pela América Látina, conhecer não só os lugares
+                mas to o trajeto percorrido, eu tenho uma enorme ambição pelo novo, pelo desconhecido.
+            </p>
+            <p>
+                Tenho também mais muita vontade de construir uma família, com dois filhos e 2 ou 3 cachorros, cresci em uma casa em que 
+                morava eu, minha mãe, meus avós e minha tia, então gosto dessa ideia da casa cheia, com vida e alegria
+            </p>
+        </section>
     </main>
+
+    <footer id="rodape">
+        <a href="#inicio">Inicio</a>
+    </footer>
 </body>
 </html>
