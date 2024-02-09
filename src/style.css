@@ -1,4 +1,6 @@
 :root{
+
+    /* Colors */
     --primary-color: #fff;
     --secondary-color: #8491A0;
     --card-color: #2A2A2A;
@@ -10,6 +12,12 @@
     --blue-gradient: linear-gradient(180deg, #5BADFF 0%, #1373D1 100%);
     --orange-gradient: linear-gradient(to bottom, #FF8660, #D5491D);
     --primary-gradient: radial-gradient(circle at 50% 50%, #FF6060, #8000FF);
+
+    /* Fonts */
+    --poppins: 'Poppins', sans-serif;
+
+    --jakarta: 'Plus Jakarta Sans', sans-serif;
+
 }
 
 *{
