@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const NavStyled = styled.div`
-    background-color: #222222;
+    background-color: var(--card-color);
     
     ul{
         display: flex;
@@ -14,7 +14,7 @@ const NavStyled = styled.div`
 
     a{
         text-decoration: none;
-        color: #fff;
+        color: var(--primary-color);
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 `
