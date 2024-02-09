@@ -1,9 +1,23 @@
+:root{
+    --primary-color: #fff;
+    --secondary-color: #8491A0;
+    --card-color: #2A2A2A;
+
+    --background-color: #161513;
+
+    --secondary-text: #C5C5C5;
+
+    --blue-gradient: linear-gradient(180deg, #5BADFF 0%, #1373D1 100%);
+    --orange-gradient: linear-gradient(to bottom, #FF8660, #D5491D);
+    --primary-gradient: radial-gradient(circle at 50% 50%, #FF6060, #8000FF);
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: #161513;
+    background-color: var(--background-color);
 }
 
