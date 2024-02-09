@@ -6,7 +6,7 @@ const HeaderStyled = styled.div`
         font-size: 55px;
         color: var(--primary-color);
         font-weight: bold;
-        font-family: 'Poppins', sans-serif;
+        font-family: var(--poppins);
     }
 
     span{
@@ -18,13 +18,13 @@ const HeaderStyled = styled.div`
 
     button{
         color: var(--primary-color);
-        background-color: #161513;
+        background-color: var(--background-color);
         border: solid 2px var(--primary-color);
         border-radius: 50px;
         width: 140px;
         padding: 10px;
         font-weight: 600;
-        font-family: 'Poppins', sans-serif;
+        font-family: var(--poppins);
         cursor: pointer;
     }
 

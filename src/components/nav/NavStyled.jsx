@@ -13,9 +13,10 @@ const NavStyled = styled.div`
     }
 
     a{
+        font-weight: 400;
         text-decoration: none;
         color: var(--primary-color);
-        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-family: var(--jakarta);
     }
 `
 
