@@ -10,7 +10,19 @@ const About = () => {
             esportes e com ele aprendi a trabalhar muito bem equipe e me esforçar para dar ótimos resultados individualmente.
             Nas horas vagas gosto de assistir animes, jogar jogos eletrônicos, ir a academia ou praticar algum esporte.
         </p>
-        
+
+        <div id="experience">
+            <h2>EXPERIENCE WITH</h2>
+
+            <div id="languages">
+                <i class="devicon-java-plain"></i>
+                <i class="devicon-spring-original"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-angular-plain"></i>
+            </div>
+        </div>
+
     </AboutStyled>
 }
 
