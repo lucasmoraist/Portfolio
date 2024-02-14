@@ -15,11 +15,11 @@ const About = () => {
             <h2>EXPERIENCE WITH</h2>
 
             <div id="languages">
-                <i class="devicon-java-plain"></i>
-                <i class="devicon-spring-original"></i>
-                <i class="devicon-javascript-plain"></i>
-                <i class="devicon-react-original"></i>
-                <i class="devicon-angular-plain"></i>
+                <i className="devicon-java-plain"></i>
+                <i className="devicon-spring-original"></i>
+                <i className="devicon-javascript-plain"></i>
+                <i className="devicon-react-original"></i>
+                <i className="devicon-angular-plain"></i>
             </div>
         </div>
 
