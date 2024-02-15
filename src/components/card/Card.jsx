@@ -18,15 +18,14 @@ function Card({projeto}) {
     }
 
     return <CardStyled>
-        
         <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
             <div className="card" onClick={flipCard}>
-                <img src={Projetos.img} />
+                <img src={projeto.img} />
 
                 <div id="know-more">
                     <div>
                         <p>CLICK HERE TO KNOW MORE</p>
-                        <h2>{Projetos.nome}</h2>
+                        <h2>{projeto.nome}</h2>
                     </div>
 
                     <div>
@@ -38,17 +37,17 @@ function Card({projeto}) {
             <div className="card card-back" onClick={flipCard}>
                 <div>
                     <p>
-                        {Projetos.descricao}
+                        {projeto.descricao}
                     </p>
                 </div>
 
                 <div id="button">
-                    <a href={Projetos.link}>REPO GIT</a>
+                    <a href={projeto.link} target="_blank">REPO GIT</a>
                 </div>
             </div>
         </ReactCardFlip>
-        
     </CardStyled>
 }
 
-export default Card;
+
+export default Card

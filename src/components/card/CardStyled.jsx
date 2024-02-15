@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const CardStyled = styled.div`
-    display: flex;
+    
     justify-content: center;
     margin-bottom: 80px;
     .card{
@@ -9,6 +9,10 @@ const CardStyled = styled.div`
         height: 301px;
         border-radius: 18px;
         background-color: var(--card-color);
+    }
+
+    img {
+        border-radius: 18px;
     }
 
     #know-more{
