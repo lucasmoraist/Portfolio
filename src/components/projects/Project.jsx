@@ -4,7 +4,7 @@ import Projetos from "../../mocks/Projetos";
 import ProjectStyled from "./ProjectStyled";
 
 const Project = () => {
-    return <ProjectStyled>
+    return <ProjectStyled id="projects">
         <h2 id="title">Projects</h2>
         <div id="card-grid">
             {Projetos.map((projeto) => {

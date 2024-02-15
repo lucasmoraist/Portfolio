@@ -2,7 +2,7 @@ import React from "react";
 import FooterStyled from "./FooterStyled";
 
 const Footer = () => {
-    return <FooterStyled>
+    return <FooterStyled id="contact">
         <div id="content">
             <h2>Contact</h2>
 
