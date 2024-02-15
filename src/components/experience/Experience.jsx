@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import ExperienceStyled from "./ExperienceStyled";
 import Experiencias from '../../mocks/Experiencias'
 import sobei from '../../assets/SOBEI.png'
 
 const Experience = () => {
 
-    const [lista, setLista] = useState([Experiencias.cargo, Experiencias.periodo, Experiencias.descricao])
-
+    const lista = [Experiencias.cargo, Experiencias.periodo,Experiencias.descricao]
 
     return <ExperienceStyled id="experience">
         <div id="experience-content">

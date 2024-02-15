@@ -15,7 +15,7 @@ function Card({projeto}) {
     return <CardStyled>
         <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
             <div className="card" onClick={flipCard}>
-                <img src={projeto.img} />
+                <img src={projeto.img} alt="Imagem do projeto"/>
 
                 <div id="know-more">
                     <div>
@@ -24,7 +24,7 @@ function Card({projeto}) {
                     </div>
 
                     <div>
-                        <img src={viewIcon} />
+                        <img src={viewIcon} alt="Icone de seta para cima"/>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ function Card({projeto}) {
                 </div>
 
                 <div id="button">
-                    <a href={projeto.link} target="_blank">REPO GIT</a>
+                    <a href={projeto.link} target="_blank" rel="noreferrer">REPO GIT</a>
                 </div>
             </div>
         </ReactCardFlip>
