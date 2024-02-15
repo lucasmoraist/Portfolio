@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import CardStyled from "./CardStyled";
-import codechella from '../../assets/codechella.svg';
-import grafico from '../../assets/grafico.svg';
-import certificate from '../../assets/certificate.svg';
-import security from '../../assets/security.svg';
 import viewIcon from '../../assets/View Icon.svg'
 import ReactCardFlip from "react-card-flip";
-import Projetos from "../../mocks/Projetos";
 
 
 function Card({projeto}) {
