@@ -8,7 +8,7 @@ const Project = () => {
         <h2 id="title">Projects</h2>
         <div id="card-grid">
             {Projetos.map((projeto) => {
-                return <Card projeto={projeto} />;
+                return <Card key={projeto.id} projeto={projeto} />;
             })}
         </div>
     </ProjectStyled>
