@@ -1,14 +1,89 @@
 import styled from "styled-components";
 
 const CardStyled = styled.div`
+
+    @media screen and (min-width: 976px) {
+        .card{
+            width: 390px;
+            height: 301px;
+        }    
+        .card-back p{
+            width: 339px;
+        }  
+        #button{
+            margin: 90px 0 0 20px;
+        }
+    }
+
+    /* Tela para tablet */
+    @media screen and (min-width: 768px) and (max-width: 975px){
+        .card{
+            width: 320px;
+            gap: 10px;
+        }
+
+        .card-back{
+            height: 270px
+        }
+
+        .card-front{
+            height: 260px;
+        }
+
+        #img-projeto{
+            width: 320px;
+        }
+
+        .card-back p{
+            width: 220px;
+            height: 180px;
+        }
+
+        #button{
+            margin: 10px 0 0 50px;
+        }
+    
+    }
+
+    /* Tela para celular */
+    @media screen and (max-width: 767px){
+        .card{
+            width: 280px;
+            gap: 20px;
+        }
+
+        .card-back{
+            height: 300px;
+        }
+
+        .card-front{
+            height: 260px;
+        }
+
+        #img-projeto{
+            width: 280px;
+        }
+
+        .card-back p{
+            width: 220px;
+            height: 180px;
+        }
+
+        #button{
+            margin: 10px 0 0 30px;
+        }
+    
+    }
+
     
     justify-content: center;
     margin-bottom: 80px;
     .card{
-        width: 390px;
-        height: 301px;
         border-radius: 18px;
         background-color: var(--card-color);
+        display: flex;
+        flex-direction: column;
+        
     }
 
     img {
@@ -44,7 +119,6 @@ const CardStyled = styled.div`
     }
 
     .card-back p{
-        width: 339px;
         text-align: justify;
         font-size: 14px;
         font-family: var(--poppins);
@@ -70,7 +144,6 @@ const CardStyled = styled.div`
         align-items: center;
         justify-content: center;
         background-color: var(--primary-color);
-        margin: 90px 0 0 20px;
     }
 `
 

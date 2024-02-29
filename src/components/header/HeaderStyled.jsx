@@ -7,6 +7,7 @@ const HeaderStyled = styled.div`
         color: var(--primary-color);
         font-weight: bold;
         font-family: var(--poppins);
+        text-align: center;
     }
 
     span{
@@ -35,6 +36,6 @@ const HeaderStyled = styled.div`
         margin: 100px 0 50px 0;
         gap: 20px;
     }
-`
+`;
 
 export default HeaderStyled;

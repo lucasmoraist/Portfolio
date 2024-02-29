@@ -1,11 +1,38 @@
 import styled from "styled-components";
 
 const FooterStyled = styled.div`
+
+@media screen and (min-width: 976px) {
+    #content{
+        margin-left: 250px;
+    }       
+}
+
+/* Tela para tablet */
+@media screen and (min-width: 768px) and (max-width: 975px){
+    #content{
+        align-items: center;
+    }
+    #redes{
+        justify-content: center;
+    }
+}
+
+/* Tela para celular */
+@media screen and (max-width: 767px){
+    #content{
+        align-items: center;
+    }
+    #redes{
+        justify-content: center;
+    }
+}    
+
+
 background-color: var(--card-color);
 height: 274px;
 
 #content{
-    margin-left: 250px;
     padding-top: 70px;
     display: flex;
     flex-direction: column;

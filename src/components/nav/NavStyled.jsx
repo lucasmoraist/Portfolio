@@ -11,6 +11,7 @@ const NavStyled = styled.div`
 
     /* Tela para tablet */
     @media screen and (min-width: 768px) and (max-width: 975px){
+        width: 100%;
         ul{
             gap: 60px;
         }

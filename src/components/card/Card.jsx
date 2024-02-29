@@ -14,8 +14,8 @@ function Card({projeto}) {
 
     return <CardStyled>
         <ReactCardFlip flipDirection="horizontal" isFlipped={isFlipped}>
-            <div className="card" onClick={flipCard}>
-                <img src={projeto.img} alt="Imagem do projeto"/>
+            <div className="card card-front" onClick={flipCard}>
+                <img src={projeto.img} alt="Imagem do projeto" id="img-projeto"/>
 
                 <div id="know-more">
                     <div>

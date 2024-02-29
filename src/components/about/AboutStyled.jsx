@@ -1,6 +1,41 @@
 import styled from "styled-components";
 
 const AboutStyled = styled.div`
+
+    @media screen and (min-width: 976px) {
+        p{
+            width: 670px;
+        }
+        
+        #languages{
+            gap: 70px;
+        }
+    }
+
+    /* Tela para tablet */
+    @media screen and (min-width: 768px) and (max-width: 975px){
+        p{
+            width: 670px;
+        }
+        
+        #languages{
+            gap: 50px;
+        }
+    }
+
+    /* Tela para celular */
+    @media screen and (max-width: 767px){
+        
+        justify-content: center;
+        p{
+            width: 300px;
+        }
+        
+        #languages{
+            gap: 20px;
+        }
+    }
+
     
     display: flex;
     align-items: center;
@@ -9,7 +44,6 @@ const AboutStyled = styled.div`
 
     p{
         font-family: var(--poppins);
-        width: 670px;
         font-size: 18;
         color: var(--secondary-text);
         text-align: justify;
@@ -38,7 +72,6 @@ const AboutStyled = styled.div`
 
     #languages{
         display: flex;
-        gap: 70px;
         margin: 50px 0;
     }
 `

@@ -2,13 +2,46 @@ import styled from "styled-components";
 
 const ExperienceStyled = styled.div`
 
+@media screen and (min-width: 976px) {
+    #experience-content{
+        width: 810px;
+    }
+    #cabecalho-experience{
+        align-items: center;
+    }
+}
+
+/* Tela para tablet */
+@media screen and (min-width: 768px) and (max-width: 975px){
+    #experience-content{
+        width: 670px;
+    }
+
+    #cabecalho-experience{
+        align-items: center;
+    }
+}
+
+/* Tela para celular */
+@media screen and (max-width: 767px){
+
+    #experience-content{
+        width: 300px;
+    }
+
+    #cabecalho-experience{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-bottom: 100px;
 
 #experience-content{
-    width: 810px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +50,7 @@ margin-bottom: 100px;
 
 #cabecalho-experience{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    
 }
 
 #cabecalho-experience div{
