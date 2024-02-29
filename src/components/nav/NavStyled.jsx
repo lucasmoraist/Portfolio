@@ -31,9 +31,6 @@ const NavStyled = styled.div`
         ul{
             flex-direction: column;
             gap: 10px;
-            margin-top: 50px;
-
-            
         }
 
         .burguer-menu {
@@ -56,11 +53,10 @@ const NavStyled = styled.div`
 
         .menu {
             width: 150px;
-            height: 200px;
+            height: 150px;
             background-color: rgba(42, 42, 42, 0.4);
             position: absolute;
-            top: 0;
-            z-index: -1;
+            top: 50px;
         }
 
         /* ------------- sliding menu ------------------ */
