@@ -7,10 +7,13 @@ on:
       - master
 
 jobs:
-  configuration: 
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -24,14 +27,6 @@ jobs:
 
       - name: Set name
         run: git config --global user.name ${{ secrets.NAME }}
-
-  build-deploy:
-    needs: configuration
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
 
       - name: Build React Project
         run: npm run predeploy
