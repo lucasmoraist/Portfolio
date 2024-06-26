@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.3c33070a.css",
+    "main.js": "/Portfolio/static/js/main.33f040fd.js",
+    "static/media/codechella.svg": "/Portfolio/static/media/codechella.a50e3cb78551c40c66358bfef8961282.svg",
+    "static/media/ecomarket.png": "/Portfolio/static/media/ecomarket.715393e3f842adb6048f.png",
+    "static/media/api-certificate.jpg": "/Portfolio/static/media/api-certificate.e5329a190c1a9ab1dff4.jpg",
+    "static/media/api-viacep.png": "/Portfolio/static/media/api-viacep.d4b18d1fd8edda976f33.png",
+    "static/media/lucas-icon.png": "/Portfolio/static/media/lucas-icon.7c1d0e2d484e5f557fbe.png",
+    "static/media/grafico.svg": "/Portfolio/static/media/grafico.690fb9152c322a4a2263942673b6d160.svg",
+    "static/media/api-jornada.png": "/Portfolio/static/media/api-jornada.e62bf347cc782fba3c26.png",
+    "index.html": "/Portfolio/index.html",
+    "static/media/View Icon.svg": "/Portfolio/static/media/View Icon.5be449a92dc5b10af70ec5da8dc1f538.svg",
+    "main.3c33070a.css.map": "/Portfolio/static/css/main.3c33070a.css.map",
+    "main.33f040fd.js.map": "/Portfolio/static/js/main.33f040fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c33070a.css",
+    "static/js/main.33f040fd.js"
+  ]
+}
